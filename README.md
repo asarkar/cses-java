@@ -6,8 +6,8 @@ See the list of [contributors](https://cses.fi/about) here. The problem set is l
 ## Table of Contents
 
 ### Sorting and Searching
-* [Distinct Numbers](https://cses.fi/problemset/task/1621) - [Solution](sorting&searching/src/main/java/P1621.java)
-* [Apartments](https://cses.fi/problemset/task/1084) - [Solution](sorting&searching/src/main/java/P1084.java)
+* [Distinct Numbers](https://cses.fi/problemset/task/1621) - [Solution](sorting+searching/src/main/java/P1621.java)
+* [Apartments](https://cses.fi/problemset/task/1084) - [Solution](sorting+searching/src/main/java/P1084.java)
 
 ## Where are the solutions to the other problems?
 I moved on after attempting a few problems, as it became clear that solving the problem set wasn't
@@ -22,7 +22,7 @@ the best use of my time.
 
    * **Single-Function Solutions** – The site effectively discourages clean, modular design by 
      rewarding monolithic, single-function code over well-structured, reusable components. 
-     For example, compare [my solution](sorting&searching/src/main/java/P1084.java) 
+     For example, compare [my solution](sorting+searching/src/main/java/P1084.java) 
      with this [random online solution](https://github.com/Dev-eloperr/CSES/blob/master/CSES%20Apartments/src/Main.java).
      Which would you rather see in a real-world codebase? Fun fact: Mine times out, while the other passes.
 
