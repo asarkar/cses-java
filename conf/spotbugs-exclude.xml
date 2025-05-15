@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- https://spotbugs.readthedocs.io/en/stable/filter.html -->
+<FindBugsFilter>
+
+    <Match>
+        <!-- https://stackoverflow.com/a/33868646/839733 -->
+        <Class name="~^(?!.*[.]Test$).*$"/>
+        <Bug pattern="NP_DEREFERENCE_OF_READLINE_VALUE"/>
+    </Match>
+
+</FindBugsFilter>
